@@ -2,6 +2,44 @@
 
 Kronologija v tem repozitoriju:
 
+## v3 — 2026-08-27 (po pregledu Bizija)
+
+Vir podatkov: Bizi.si / AJPES PRS.
+
+### Podatki izvajalca (izpolnjeni; prazna polja iz v2 zaprta)
+
+| | |
+|---|---|
+| Naziv | ELIAS RUDOLF - ODVETNIK |
+| Pravna oblika | samostojni odvetnik (SKIS S.14100 – samozaposleni delodajalec) |
+| Sedež | Obrežna steza 2, 1000 Ljubljana |
+| Matična št. | 2861887000 |
+| Davčna št. | 34928138 |
+| DDV | NE — 76.a čl. ZDDV-1 (atipični davčni zavezanec) |
+| TRR (uporabljen v pogodbi) | SI56 0400 0028 0838 318 (OTP banka d.d.) |
+| Drugi TRR | SI56 0400 0028 0838 221 (OTP banka d.d.) — po želji zamenljiv |
+| Datum vpisa | 13. 11. 2023 |
+| Dejavnost | Odvetništvo |
+
+### Ključne spremembe v3 vs v2
+
+| # | Kje | Sprememba | Podlaga |
+|---|---|---|---|
+| 1 | Uvod strank | Izvajalec zdaj **samostojni odvetnik** s polnim naslovom + matično + davčno + TRR (ne več prazna polja z "davčnim uradom" in "statusom") | Bizi.si |
+| 2 | 1. člen | **Dodan odstavek**: pojasnilo, da izvajalec nastopa kot fizična oseba-avtor in delo opravlja preko svoje pisarne (16. čl. Zakona o odvetništvu — dovoljena umetniška dejavnost) | Zakon o odvetništvu, ZASP |
+| 3 | 5. člen — **honorar** | Odpade hibridna izplačilna klavzula; ostane samo **izvajalec izda račun**. Rok: 30 dni od prejema računa (namesto 30 dni po premieri). "2.300,00 EUR" brez sufiksa "bruto" (ker gre za znesek na računu brez DDV). | Bizi.si — 76.a čl. ZDDV-1 |
+| 4 | 24. člen, podpis | "Elias Rudolf, odvetnik" namesto "Elias Rudolf" | Uradni naziv poklicne oznake |
+
+### Kar OSTAJA iz v2
+
+- Varovalka avtorja (8. čl.) — pravice na besedilu kot samostojnem literarnem delu.
+- Vse popravke iz REVIEW-a (5. čl. ZASP za režijo, specifični členi prenosa MAP, reverzija, opomba o sorodnih pravicah tretjih, mehčanje delovno-pravnih indicij).
+
+### Priloga A (ZPIZ) NI potrebna
+
+- Elias kot registrirani samozaposleni delodajalec (SKIS S.14100) sam plačuje  
+  PIZ in ZZ prispevke; ne potrebuje ločene izjave zavarovanca po 18. čl. ZPIZ-2.
+
 ## v2 — 2026-08-27
 - Osnova: **Nina Šorak MG** (20. 8. 2026) kot trenutni gold standard.
 - Vgrajeni popravki iz **REVIEW-a treh pravnikov (DP / AP / ZP)** k v1_PREDLOG.
