@@ -2,6 +2,46 @@
 
 Kronologija v tem repozitoriju:
 
+## v4 — 2026-08-27 (aplikacija manjkajočih pravil iz standarda v7)
+
+Vir: `ŠG_STANDARDI_pogodbe_v7_changelog.md` (potrjeno 20. 8. 2026),  
+`LECNI_STANDARD_pregled_pogodb.md`, `OBLIKOVALSKA_TAKSONOMIJA_pogodb.md`.
+
+### Glavno spoznanje
+
+v3 je bil zgrajen po **primerih** (Nina MG, Šunder), **ne po standardu** —  
+zato je marsikatera Milanova utrjena norma iz v7 obšla. v4 aplicira te norme.
+
+### Kaj se je popravilo (v3 → v4)
+
+| # | Kje | v3 | v4 | Podlaga |
+|---|---|---|---|---|
+| P1 | Uvod strank | "Elias Rudolf, odvetnik" | **"g. Elias Rudolf, odvetnik"** | v7 §3.1 (g./ga. samo v uvodu strank); §3.3 (naziv pred imenom) |
+| P2 | III. poglavje ime | "AVTORSKI HONORAR" | **"NARAVA RAZMERJA"** | v7 §1.1 tabela; §8 changelog #2 |
+| P3 | 1. člen datum premiere | "v marcu 2027" plain | **"marca 2027" BOLD** | Oblikovalska taksonomija B.1 #6 |
+| P4 | Podpisni blok | ročno grajen, imena v vrstici 6–7, brez bolda, žig samo desno | **po v7 §4.0**: vrstica 4 naziv, **vrstica 5 IME BOLD**, vrstica 6 funkcija, **vrstica 8 žig OBOJESTRANSKO** | v7 §4.0 (Milanov popravek 20. 8. — izrecno svari pred to napako); bold register B.1 #1, #3 |
+| P5 | Struktura | (nejasno) | **jasno DVOSTRANSKA** (dvojina glagolov; avtor = izvajalec = ista F.O. z registrirano dejavnostjo) | ZOdv 16. čl.; ne §3.2, ker Elias nima ločenega pravnega subjekta |
+
+### GLASNA OPOZORILA (v DIFF .docx)
+
+**O1 — Odvisnost od lokalne `sgl_docx_format.py`**  
+Standard v7 je 20. 8. 2026 popravil dve stvari v helperju:
+- **§5.6.2**: zamiki poglavij 0,63 / −1,27 → **0,75 / −0,75** cm (rimska št. poravnana z levim robom telesa).
+- **§5.6.10**: alineje zdaj z označevalcem **"–" (en-dash) + presledek** (prej brez marker-ja).
+
+Kopija `sgl_docx_format.py` na Drive je iz **7. 5. 2026** — stara. Če Milanova lokalna kopija ni novejša, poglavja in alineje bodo videti drugače od predpisa.
+
+**O2 — Odvetnik ≠ pravna oseba**  
+v7 §3.2 predpisuje tristranski vrstni red samo za "sodelavski Potodom" (kjer vmesnik je d.o.o./s.p./zavod). Elias kot samostojni odvetnik po ZOdv posluje kot F.O. z registrirano poklicno dejavnostjo — **NI ločena pravna oseba**. Zato dvostranska pogodba. Odstavek v 1. členu, ki pojasnjuje dvojno identiteto (avtor F.O. + izvajalec preko pisarne), je Elias-specifika — ni predpisan v v7, predlog za v8.
+
+**O3 — Podpisni blok v v3 je bil STRUKTURNO NAPAČEN**  
+v7 §4.0 (Milan, 20. 8. — dobesedni citat): *"vrstice tabele: 0 datum · 2 oznaka · 4 naziv prav. osebe · **5 ime+priimek (bold)** · 6 funkcija · 8 žig"*. Moj v3 je imel imena v vrstici 6/7 in **brez bolda**. To je natanko napaka, ki jo standard izrecno omenja kot ponavljajočo. **Popravljeno v v4.**
+
+### Datoteke v4
+
+- `sgl_make_pogodba_elias_rudolf_v4.py` — čista produkcijska verzija za podpis
+- `sgl_make_pogodba_elias_v4_DIFF.py` — diff verzija z vidnimi popravki + oranžnimi opozorili (NI za podpis; za primerjavo)
+
 ## v3 — 2026-08-27 (po pregledu Bizija)
 
 Vir podatkov: Bizi.si / AJPES PRS.
