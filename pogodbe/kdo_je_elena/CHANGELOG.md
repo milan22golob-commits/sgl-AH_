@@ -2,6 +2,57 @@
 
 Kronologija v tem repozitoriju:
 
+## v5 · lečna dopolnitev — 2026-08-27 (verbatim citati + popravek napak)
+
+Nova skripta: `sgl_make_pogodba_elias_v5_LECA_CITATI.py` — pod vsakim sklicem
+na zakonski člen v pogodbi doda VERBATIM tekst tega člena (modra) +
+argumentacijo, zakaj citat podpira klavzulo (vijolična).
+
+### Napake razkritje z lečo (glasna oranžna opozorila v dokumentu)
+
+1. **21. čl. ZOdv, ne 16. čl.** (napaka v v3/v4). 16. čl. ZOdv v resnici
+   ureja status specialista odvetnika (izvoljenega v pedagoški naziv na
+   pravni fakulteti) — z umetniško dejavnostjo nima zveze. Pravilni člen
+   je **21. čl. ZOdv** (nezdružljivost, s točko 1: "razen v znanstveni,
+   pedagoški, umetniški ali publicistični dejavnosti"). Verbatim v skripti.
+
+2. **76.a čl. ZDDV-1 je DVOMEN sklic** (v uvodu strank in 5. čl.). 76.a
+   se nanaša na *reverse charge* (obrnjena davčna obveznost — prejemnik
+   postane plačnik DDV), ne na oprostitev malega davčnega zavezanca.
+   Bizi.si sicer uporablja to oznako kot klasifikacijo, ampak pravni razlog
+   za NE-obračun DDV pri domači avtorski storitvi je verjetno **94. čl.
+   ZDDV-1** (mali davčni zavezanec, prag 50.000 EUR) ali **44. čl.
+   ZDDV-1** (oprostitev za avtorska dela pisateljev/skladateljev).
+   Elias naj kot odvetnik potrdi ali popravi. V v6 popravim.
+
+### Preverjeni verbatim citati v lečni verziji (viri: PISRS, zakonodaja.com, ZAPS)
+
+ZASP 5., 23., 24., 26., 30., 32.a, 118. člen · ZOdv 21. člen.
+
+### Kar še ostane za v6
+
+- Ekstraktati verbatim za: ZASP 16.–20. (moralne pravice), 39. (razmerje
+  lastnine nosilca vs. avtorske pravice), 75.–78. (obseg prenosa, trajanje),
+  83. (vračanje pravic ob neizvrševanju).
+- Popravek CHANGELOG-a v3/v4 (napačna referenca 16. → 21. čl. ZOdv).
+- Odločitev o 76.a čl. ZDDV-1 (94. / 44. / brez sklica).
+
+### Mehčanje delovno-pravnih indicij — pojasnilo izvora
+
+Milanovo vprašanje 27. 8.: "kaj je mehčanje, od kod, ali sem jaz zahteval?"
+
+**Ni izrecna Milanova zahteva.** Izšlo je iz REVIEW komentarjev DP-pravnika
+(`sgl_make_pogodba_elias_REVIEW.py`, 14. 8. 2026), kjer je pravnik k 4.
+členu izrecno napisal: *"Omili: avtor naj odgovarja za umetniški REZULTAT,
+ne za podrejeno izvajanje navodil direktorja."* — in podobne opombe k
+členom 12–16 (razpored vaj, hišni red, obveščanje o odsotnosti, pro rata
+plačilo).
+
+Jaz sem te komentarje v v2/v3/v4/v5 avtomatsko interpretiral kot navodila
+in aplikiral. Milan tega v tej seji ni potrdil.
+
+**Odprto vprašanje**: če Milan želi trše Ira-dikcije, se v v6 vrne.
+
 ## v5 — 2026-08-27 (Milanovi vsebinski popravki + sinoptična primerjava)
 
 Vir: Milanov pregled v4, 27. 8. 2026 (osem vprašanj po vrsti).
