@@ -2,6 +2,36 @@
 
 Kronologija v tem repozitoriju:
 
+## v5 — 2026-08-27 (Milanovi vsebinski popravki + sinoptična primerjava)
+
+Vir: Milanov pregled v4, 27. 8. 2026 (osem vprašanj po vrsti).
+
+### Milanovi popravki v5 vs v4
+
+| # | Kje | Sprememba | Razlog |
+|---|---|---|---|
+| Q1 | 1. člen | Odstavek o 16. čl. ZOdv **skrajšan** — samo omemba "preko svoje registrirane pisarne" | Pravno ni obveznost do ŠGL; sklic na ZOdv lahko zbudi nepotrebno pozornost |
+| Q2 | 1. člen | "marca 2027" → **"predvidoma marca 2027"** | Točnega datuma še ni |
+| Q3 | 5. člen | Enoten 2.300 EUR → **razdeljen 600 (besedilo) + 1.700 (režija)** | DP-pravnik v REVIEW-u priporočil kot davčno varovalko (ZASP 81. — "primeren honorar") |
+| Q4 | 10. člen | Izročanje za izvedbo → **izročanje ARHIVSKIH kopij** (naročnik prosi, ne zahteva) | Elias nima produkcijskih materialov; logika po Nini MG 18. čl. |
+| Q5 | 9. člen, podpis | "avtor besedila in režiser" → **"dramatik in režiser"** | Utečena slovenska sintagma; "avtor besedila" ni v ŠGL slovarju |
+| Q6 | 11. člen | "edini avtor obeh del" → **razdeljeno** (a) izključni avtor besedila, (b) zaveza za izključno režijo | Besedilo že obstaja, režija bo nastala — jamstvo se natančno navezuje |
+| Q7 | 12. člen | Sporazumen razpored → **koordinira organizator kulturnega programa** sporazumno | Vrnjena Milanova omemba iz Ira/Šunder, a mehčano |
+| Q8 | 8. člen | Neekskluzivno **ostaja** | Fair za mladega avtorja; ekskluzivnost bi zahtevala višji honorar |
+
+### Odprta vprašanja pred podpisom
+
+1. **Ekskluzivnost** — če ŠGL hoče, da Elias v času repertoarja NE ponudi drugim slovenskim gledališčem, se doda ločena klavzula. Trenutno neekskluzivno.
+2. **Milanovi ročni popravki** — Milan je omenil popravke v dokumentu iz zadnjega datuma. Čakajo posredovanja (upload / povezava / opis).
+
+### Nova datoteka: sinoptična primerjava
+
+`sgl_make_primerjava_ira_nina_elias.py` generira ležečo tabelo (5 stolpcev, 16 vrstic):
+
+| DEL | IRA (Šunder) | NINA (Menažerija) | ELIAS v5 | KOMENTAR |
+
+Pokaže po ključnih delih pogodbe (uvod strank, naslov, 1.–24. člen, podpis, izvodi), kako je isti del napisan pri vseh treh, s komentarjem v zelenem v petem stolpcu. Zaključek: 4 razdelki o razlikah (Elias vs Nina, Elias vs Ira, skupne poteze, kje je Elias najdlje).
+
 ## v4 — 2026-08-27 (aplikacija manjkajočih pravil iz standarda v7)
 
 Vir: `ŠG_STANDARDI_pogodbe_v7_changelog.md` (potrjeno 20. 8. 2026),  
