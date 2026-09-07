@@ -68,6 +68,7 @@ from sgl_docx_format import (
     add_doc_title, add_section, add_clen, add_para_runs, add_bullet,
     add_footer_pagenum,
     make_table_no_borders, fill_cell,
+    set_metadata_milan,  # v7 §5.6.12 (2026-08-27) — author = Milan Golob
 )
 
 from docx import Document
@@ -126,6 +127,7 @@ def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     doc, tmp = init_doc()
 
+    set_metadata_milan(doc)  # v7 §5.6.12
     set_margins(doc, top_cm=2.5, bottom_cm=2.5, left_cm=2.5, right_cm=2.5)
     add_footer_pagenum(doc)
 
